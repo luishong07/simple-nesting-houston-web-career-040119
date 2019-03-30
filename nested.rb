@@ -53,7 +53,7 @@ def dennis_ritchies_language
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => "C"
+          :languages => "C"    #eliminated array, how to access element when array
         }
      }
   programmer_hash[:dennis_ritchie][:languages] 
@@ -83,6 +83,7 @@ def adding_matz
      }
   
     programmer_hash[yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP","C"]}
+    programmer_hash
 end
 
 def changing_alan
